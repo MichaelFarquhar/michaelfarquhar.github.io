@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="MichaelFarquhar's Github landing page with links" />
+        <title>Michael Farquhar's Github</title>
+
+        <link
+            rel="preload"
+            href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+            as="style"
+        />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            as="style"
+        />
+        <link
+            rel="preload"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            as="style"
+        />
+
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <style>
+            body {
+                font-family: "Inter", sans-serif;
+            }
+            .hover-scale {
+                transition: transform 0.2s ease-in-out;
+            }
+            .hover-scale:hover {
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body class="bg-gray-50">
+        <main class="min-h-screen flex items-center justify-center p-4">
+            <div class="text-center space-y-8 w-full max-w-4xl">
+                <!-- Profile Section -->
+                <div class="space-y-6">
+                    <img
+                        src="https://avatars.githubusercontent.com/u/22300418?v=4"
+                        alt="Profile Picture"
+                        class="rounded-full border-2 mx-auto shadow-lg object-cover"
+                        width="150"
+                        height="150"
+                    />
+                    <div class="space-y-4">
+                        <h1 class="text-4xl font-semibold text-gray-800 mt-8">Michael Farquhar</h1>
+                        <p class="text-xl text-gray-600 max-w-2xl mx-auto px-4">
+                            Front End Developer
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Buttons Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto px-4">
+                    <!-- GitHub Button -->
+                    <a
+                        href="https://github.com/MichaelFarquhar?tab=repositories"
+                        target="_blank"
+                        class="hover-scale bg-blue-100 p-6 rounded-xl shadow-md flex flex-col items-center space-y-3 hover:shadow-lg transition-shadow duration-200"
+                    >
+                        <i class="fab fa-github text-4xl text-blue-600"></i>
+                        <span class="font-medium text-lg text-blue-700">Repositories</span>
+                    </a>
+
+                    <!-- Portfolio Button -->
+                    <a
+                        href="https://michaelfarquhar.github.io/portfolio/"
+                        target="_blank"
+                        class="hover-scale bg-red-100 p-6 rounded-xl shadow-md flex flex-col items-center space-y-3 hover:shadow-lg transition-shadow duration-200"
+                    >
+                        <i class="fas fa-briefcase text-4xl text-red-600"></i>
+                        <span class="font-medium text-lg text-red-700">Portfolio</span>
+                    </a>
+
+                    <!-- Resume Button -->
+                    <a
+                        href="#"
+                        target="_blank"
+                        class="hover-scale bg-green-100 p-6 rounded-xl shadow-md flex flex-col items-center space-y-3 hover:shadow-lg transition-shadow duration-200"
+                    >
+                        <i class="far fa-file-alt text-4xl text-green-600"></i>
+                        <span class="font-medium text-lg text-green-700">Resume</span>
+                    </a>
+
+                    <!-- LinkedIn Button -->
+                    <a
+                        href="https://www.linkedin.com/in/michael-farquhar-a0938b241/"
+                        target="_blank"
+                        class="hover-scale bg-purple-100 p-6 rounded-xl shadow-md flex flex-col items-center space-y-3 hover:shadow-lg transition-shadow duration-200"
+                    >
+                        <i class="fab fa-linkedin text-4xl text-purple-600"></i>
+                        <span class="font-medium text-lg text-purple-700">LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
